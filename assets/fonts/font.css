@@ -1,0 +1,97 @@
+/* ttf format fonts */
+@font-face{
+    font-family: "iransans";
+    src: url(ttf/IRANSansXFaNum-Thin.ttf) format(ttf);
+    font-weight: 100;
+}
+@font-face{
+    font-family: "iransans";
+    src: url(ttf/IRANSansXFaNum-UltraLight.ttf) format(ttf);
+    font-weight: 200;
+}
+@font-face{
+    font-family: "iransans";
+    src: url(ttf/IRANSansXFaNum-Light.ttf) format(ttf);
+    font-weight: 300;
+}
+@font-face{
+    font-family: "iransans";
+    src: url(ttf/IRANSansXFaNum-Regular.ttf) format(ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: "iransans";
+    src: url(ttf/IRANSansXFaNum-Medium.ttf) format(ttf);
+    font-weight: 500;
+}
+@font-face{
+    font-family: "iransans";
+    src: url(ttf/IRANSansXFaNum-DemiBold.ttf) format(ttf);
+    font-weight: 600;
+}
+@font-face{
+    font-family: "iransans";
+    src: url(ttf/IRANSansXFaNum-Bold.ttf) format(ttf);
+    font-weight: 700;
+}
+@font-face{
+    font-family: "iransans";
+    src: url(ttf/IRANSansXFaNum-ExtraBold.ttf) format(ttf);
+    font-weight: 800;
+}
+@font-face{
+    font-family: "iransans";
+    src: url(ttf/IRANSansXFaNum-Black.ttf) format(ttf);
+    font-weight: 900;
+}
+/* ttf format fonts */
+
+/* woff2 format fonts */
+
+@font-face {
+    font-family: "iransans";
+    src: url(woff2/IRANSansXFaNum-Thin.woff2) format(woff2);
+    font-weight: 100;
+}
+@font-face {
+    font-family: "iransans";
+    src: url(woff2/IRANSansXFaNum-UltraLight.woff2) format(woff2);
+    font-weight: 200;
+}
+@font-face {
+    font-family: "iransans";
+    src: url(woff2/IRANSansXFaNum-Light.woff2) format(woff2);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "iransans";
+    src: url(woff2/IRANSansXFaNum-Regular.woff2) format(woff2);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "iransans";
+    src: url(woff2/IRANSansXFaNum-Medium.woff2) format(woff2);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "iransans";
+    src: url(woff2/IRANSansXFaNum-DemiBold.woff2) format(woff2);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "iransans";
+    src: url(woff2/IRANSansXFaNum-Bold.woff2) format(woff2);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "iransans";
+    src: url(woff2/IRANSansXFaNum-ExtraBold.woff2) format(woff2);
+    font-weight: 800;
+}
+@font-face {
+    font-family: "iransans";
+    src: url(woff2/IRANSansXFaNum-Black.woff2) format(woff2);
+    font-weight: 900;
+}
+/* woff2 format fonts */
+

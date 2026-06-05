@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="IR-fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سوپر اپلیکیشن اسنپ</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://lib.arvancloud.ir/font-awesome/6.3.0/css/all.css"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__container">
+        <div class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="90"
+            height="26"
+            viewBox="0 0 90 26"
+          >
+            <g fill="none" fill-rule="evenodd">
+              <g fill="#00D170">
+                <g>
+                  <path
+                    d="M12.948 3.06c-.621 1.212-2.016 1.803-3.32 1.416-.438-.13-.894-.2-1.356-.2-.938 0-2.188.547-2.188 1.643 0 1.146 1.38 1.59 2.265 1.877l1.303.39c2.734.81 4.844 2.19 4.844 5.372 0 1.955-.47 3.962-2.032 5.292-1.536 1.304-3.594 1.851-5.573 1.851-2.464 0-4.876-.828-6.877-2.225-.013-.01-.018-.028-.01-.043l2.173-4.093c1.277 1.121 2.787 2.033 4.532 2.033 1.198 0 2.473-.6 2.473-1.981 0-1.434-2.004-1.93-3.098-2.242C2.88 11.237.77 10.403.77 6.596.77 2.607 3.61 0 7.542 0c1.969 0 4.375.62 6.118 1.6.015.01.022.029.013.046l-.725 1.415zM20.18 8.526h.001c.011 0 .022-.006.028-.015 1.092-1.605 2.418-2.15 4.261-2.15 3.593 0 5.026 2.269 5.026 5.554v5.44c0 1.56-1.263 2.825-2.822 2.825H24.79c-.019 0-.034-.015-.034-.034v-6.484c0-1.278.209-3.52-2.135-3.52-1.928 0-2.474 1.434-2.474 3.103v4.11c0 1.56-1.263 2.825-2.822 2.825H15.44c-.018 0-.033-.015-.033-.034V6.838c0-.018.015-.033.033-.033h4.673c.019 0 .034.015.034.033v1.654c0 .019.015.034.034.034M35.291 13.505c0 1.695 1.12 2.999 3.047 2.999 1.928 0 3.048-1.304 3.048-2.999 0-1.642-1.12-3.024-3.048-3.024-1.927 0-3.047 1.382-3.047 3.024m7.856 6.675h-1.884c-.019 0-.033-.015-.033-.034v-1.418c0-.02-.016-.034-.034-.034-.012 0-.023.006-.029.015-.836 1.32-2.47 1.914-4.026 1.914-3.959 0-6.745-3.311-6.745-7.144 0-3.832 2.734-7.118 6.692-7.118 1.507 0 3.088.552 4.082 1.679.02.023.06.01.06-.022v-1.18c0-.018.014-.033.033-.033h4.673c.018 0 .033.015.033.033v10.517c0 1.56-1.263 2.825-2.822 2.825M52.002 13.505c0 1.695 1.12 2.999 3.047 2.999s3.047-1.304 3.047-2.999c0-1.642-1.12-3.024-3.047-3.024-1.928 0-3.047 1.382-3.047 3.024m.19-5.188c.01 0 .022-.006.028-.015.862-1.32 2.47-1.94 4.027-1.94 3.985 0 6.745 3.337 6.745 7.17 0 3.858-2.734 7.091-6.693 7.091-1.533 0-3.117-.545-4.133-1.712-.003-.003-.007-.001-.007.003v4.082c0 1.56-1.264 2.825-2.822 2.825h-1.918V6.805h4.74v1.478c0 .02.014.034.033.034M68.461 13.505c0 1.695 1.12 2.999 3.047 2.999s3.048-1.304 3.048-2.999c0-1.642-1.121-3.024-3.048-3.024-1.928 0-3.047 1.382-3.047 3.024m.19-5.188c.011 0 .022-.006.028-.015.862-1.32 2.47-1.94 4.027-1.94 3.984 0 6.744 3.337 6.744 7.17 0 3.858-2.734 7.091-6.692 7.091-1.507 0-3.065-.526-4.082-1.654-.02-.023-.06-.009-.06.022v4.005c0 1.56-1.262 2.825-2.82 2.825H63.91c-.018 0-.034-.016-.034-.034V6.838c0-.018.016-.033.034-.033h4.672c.02 0 .034.015.034.033v1.445c0 .02.015.034.033.034M84.997.522l-3.212 12.35h2.67c1.292 0 2.42-.876 2.744-2.129L89.862.522h-4.865zM83.387 14.618c1.655 0 2.999 1.345 2.999 3.002 0 1.657-1.344 3.002-3 3.002-1.654 0-2.998-1.345-2.998-3.002 0-1.657 1.344-3.002 2.999-3.002z"
+                    transform="translate(-214 -43) translate(214 43)"
+                  />
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <button id="openBtn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav__container__item toggelNav" id="drawer">
+          <button id="closeBtn">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <hr class="hr__navMobile" />
+          <div class="container__dropdown">
+            <div class="dropdown__item">
+              <a href="#">سوپراپ اسنپ</a>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="dropdown__box">
+              <ul>
+                <li><a href="#">درخواست تاکسی</a></li>
+                <li><a href="#">پیک موتوری</a></li>
+                <li><a href="#">سفارش آنلاین غذا اسنپ فود</a></li>
+                <li><a href="#">سوپر مارکت آنلاین</a></li>
+                <li><a href="#">بلیط هواپیما</a></li>
+                <li><a href="#">رزرو هتل</a></li>
+              </ul>
+            </div>
+          </div>
+          <a href="#">ثبت نام راننده اسنپ</a>
+          <a href="#">اسنپ پی(سرویس اعتباری)</a>
+          <a href="#">باشگاه رانندگان</a>
+          <a href="#">خرید بلیط هواپیما</a>
+          <a href="#">پنل سازمانی</a>
+          <a href="#">بلاگ</a>
+          <div class="container__dropdown">
+            <div class="dropdown__item">
+              <a href="#">درباره اسنپ</a>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="dropdown__box">
+              <ul>
+                <li><a href="#">درخواست تاکسی</a></li>
+                <li><a href="#">پیک موتوری</a></li>
+                <li><a href="#">سفارش آنلاین غذا اسنپ فود</a></li>
+                <li><a href="#">سوپر مارکت آنلاین</a></li>
+                <li><a href="#">بلیط هواپیما</a></li>
+                <li><a href="#">رزرو هتل</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="hero__section">
+      <div class="hero__content">
+        <div class="hero__item">
+          <div class="hero__content__text">
+            <h1>
+              تجربه‌ی زندگی راحت‌تر، سریع‌تر و به‌صرفه‌تر با سوپراپلیکیشن اسنپ!
+            </h1>
+            <p>
+              از درخواست خودرو گرفته تا سفارش غذا، خرید سوپرمارکتی، خرید بلیط
+              سفر، رزرو هتل و... را میتوانید با اسنپ انجام دهید.
+            </p>
+          </div>
+          <div class="hero__content__form">
+            <form action="#" method="post">
+              <div>
+                <input type="text" placeholder="09xxxxx6789" />
+              </div>
+              <div>
+                <input class="btn" type="submit" value="ارسال لینک" />
+              </div>
+            </form>
+          </div>
+          <div class="login__btn_contant">
+            <button class="btn login__btn">
+              <span>ورود به وب اپلیکیشن اسنپ</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="hero__image"></div>
+    </section>
+    <section class="download__box">
+      <div>
+        <a href="#">
+          <img
+            src="public/images/down-image/direct-download-badge.png"
+            alt="لینک دانلود"
+          />
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img
+            src="public/images/down-image/myketmarket.png"
+            alt="لینک دانلود"
+          />
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img src="public/images/down-image/app_store.svg" alt="لینک دانلود" />
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img src="public/images/down-image/snapp-pwa.png" alt="لینک دانلود" />
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img src="public/images/down-image/bazaar.png" alt="لینک دانلود" />
+        </a>
+      </div>
+    </section>
+    <section class="feature__contant">
+      <h2>یک اپلیکیشن، برای تمام نیازها</h2>
+      <div class="feature__box">
+        <a href="#">
+          <img src="public/images/feature-svg/taxi.svg" alt="" />
+          <div>
+            <h3>تاکسی اینترنتی</h3>
+            <p>درخواست آنلاین خودرو</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/food.svg" alt="" />
+          <div>
+            <h3>سفارش آنلاین غذا</h3>
+            <p>سفارش غذا، نان و شیرینی با اسنپ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/Market-Orange-Final.png" alt="" />
+          <div>
+            <h3>سوپر مارکت آنلاین</h3>
+            <p>تهیه اقلام روزانه با اسنپ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/bike.svg" alt="" />
+          <div>
+            <h3>پیک موتوری</h3>
+            <p>حمل نقل انواع بسته</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/pickup.svg" alt="" />
+          <div>
+            <h3>درخواست وانت</h3>
+            <p>حمل و نقل انواع بار</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/Credit.svg" alt="" />
+          <div>
+            <h3>اسنپ پیک</h3>
+            <p>سرویس اعتباری اسنپ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/hotel.svg" alt="" />
+          <div>
+            <h3>رزرو هتل</h3>
+            <p>رزرو آنلاین هتل</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/hotel.svg" alt="" />
+          <div>
+            <h3>رزرو اقامت گاه</h3>
+            <p>رزرو آنلاین ویلا و اقامتگاه</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/fdom-t.png" alt="" />
+          <div>
+            <h3>خرید بلیط هواپیما</h3>
+            <p>خرید بلیط پرواز خارجی</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/intflight.svg" alt="" />
+          <div>
+            <h3>بلیط هواپیمای خارجی</h3>
+            <p>خرید بلیط پرواز خارجی</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/bus.svg" alt="" />
+          <div>
+            <h3>خرید بلیط اتوبوس</h3>
+            <p>سرویس بلیط اتوبوس اسنپ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/train.svg" alt="" />
+          <div>
+            <h3>خرید بلیط قطار</h3>
+            <p>سرویس بلیط قطار اسنپ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/shop.svg" alt="" />
+          <div>
+            <h3>فروشگاه اسنپ</h3>
+            <p>فروشگاه اینترنتی اسنپ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/doctor.svg" alt="" />
+          <div>
+            <h3>پزشک و مشاوره</h3>
+            <p>درمان با اسنپ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/pharmacy.svg" alt="" />
+          <div>
+            <h3>داروخانه</h3>
+            <p>داروخانه آنلاین اسنپ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/Insurance.png" alt="" />
+          <div>
+            <h3>بیمه</h3>
+            <p>خرید آنلاین بیمه با اسنپ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/moving.svg" alt="" />
+          <div>
+            <h3>اسباب کشی منزل</h3>
+            <p>خدمات اسباب کشی</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/driver.svg" alt="" />
+          <div>
+            <h3>ثبت نام رانندگان</h3>
+            <p>ثبت نام تاکسی ابنترنتی اسنپ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/club.svg" alt="" />
+          <div>
+            <h3>اسنپ! کلاب</h3>
+            <p>باشگاه مشتریان اسنپ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img
+            src="public/images/feature-svg/Investemnt-New Color.png"
+            alt=""
+          />
+          <div>
+            <h3>سرمایه گذاری</h3>
+            <p>سرمایه گذاری پرسود و کم ریسک با اسنپ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/wallet.png" alt="" />
+          <div>
+            <h3>خرید شارژ</h3>
+            <p>خرید آنلاین شارژ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/wallet.png" alt="" />
+          <div>
+            <h3>خرید بسته اینترنت</h3>
+            <p>خرید بسته اینترنت</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/Pro.png" alt="" />
+          <div>
+            <h3>اسنپ پرو</h3>
+            <p>اشتراک حرفه ای اسنپ</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/foodroicon.svg" alt="" />
+          <div>
+            <h3>فودرو</h3>
+            <p>بدون تخفیف رستوران نرو</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="public/images/feature-svg/wallet.png" alt="" />
+          <div>
+            <h3>اسنپ کارپی</h3>
+            <p>استعلام و پرداخت های خودرو</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="sliderbox">
+      <a class="sliderbox__img">
+        <img src="public/images/slider/emergancy.jpg" alt="" />
+      </a>
+    </section>
+    <section class="service__Container">
+      <div class="services__content">
+        <div class="services__content__image">
+          <img src="public/images/services-img/super-app.jpg" alt="" />
+        </div>
+        <div class="services__content__text">
+          <h2>سوپر اپ اسنپ؛ پاسخی به تمام نیازها</h2>
+          <p>
+            اسنپ، اولین تاکسی اینترنتی ایران، بعد از پنج سال فعالیت در حوزه‌ی
+            تردد شهری، به یک سوپر‌اپ با خدمات متنوع تبدیل شد. سوپراپ اسنپ
+            راه‌حلی جدید و ساده است که با استفاده از آن تنها با یک اپلیکیشن
+            می‌توانید علاوه بر درخواست خودرو، موتور و وانت از خدمات متعددی از
+            جمله سفارش غذا، پزشک و مشاور آنلاین، خرید از سوپرمارکت‌ها و
+            فروشگاه‌ها، اسباب‌کشی، خرید بلیط (هواپیما، اتوبوس، قطار)، رزرو هتل،
+            پرداخت قبض و خرید شارژ استفاده کنید.
+          </p>
+        </div>
+      </div>
+      <div class="services">
+        <div class="services__section">
+          <div class="service__cart">
+            <div class="service__itme">
+              <div class="service__cart__img">
+                <img src="public/images/services-img/1.png" alt="" />
+              </div>
+            </div>
+            <div class="service__text">
+              <p>آسان</p>
+              <p>
+                برای استفاده از هر کدام از خدمات سوپراپ کافی است وارد اپلیکیشن
+                اسنپ شوید و روی آیکون مورد نظر بزنید
+              </p>
+            </div>
+          </div>
+          <div class="service__cart">
+            <div class="service__itme">
+              <div class="service__cart__img">
+                <img src="public/images/services-img/2.png" alt="" />
+              </div>
+            </div>
+            <div class="service__text">
+              <p>سریع</p>
+              <p>
+                قرار گرفتن خدمات مختلف در یک پلت‌فرم به صرفه‌جویی در زمان کمک
+                می‌کند. سوپراپ اسنپ پاسخی سریع به نیازهای رومزه‌ی شماست.
+              </p>
+            </div>
+          </div>
+          <div class="service__cart">
+            <div class="service__itme">
+              <div class="service__cart__img">
+                <img src="public/images/services-img/3.png" alt="" />
+              </div>
+            </div>
+            <div class="service__text">
+              <p>به صرفه</p>
+              <p>
+                سوپراپ اسنپ علاوه بر زمان در هزینه‌های شما نیز صرفه‌جویی می‌کند
+                تا بهترین خدمات را با قیمتی منطقی دریافت کنید.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="diver">
+      <div class="driver__contant">
+        <h2>در کمتر از ۱۰ دقیقه ثبت‌نام کنید و به ناوگان اسنپ بپیوندید.</h2>
+        <p>
+          بدون نیاز به مراجعه‌ی حضوری، از طریق این صفحه، تمام مراحل ثبت‌نام را
+          اینترنتی انجام دهید
+        </p>
+        <a href="#" class="btn">ثبت نام رانندگان</a>
+      </div>
+      <div class="driver__video">
+        <video controls>
+          <source src="public/video/driver/jazbranandeh1.mp4" />
+        </video>
+      </div>
+      <div class="driver__box">
+        <div class="dirver__item">
+          <div class="dirver__item__img">
+            <img src="public/images/driver/1.png" alt="" />
+          </div>
+          <div class="dirver__item__text">
+            <p>درآمد تضمینی + پاداش‌های ماهانه و هفتگی</p>
+            <p>
+              با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان تسویه
+              در لحظه می‌توانید با شرکت در طرح‌های تشویقی مختلف، درآمد خود را
+              افزایش دهید.
+            </p>
+          </div>
+        </div>
+        <div class="dirver__item">
+          <div class="dirver__item__img">
+            <img src="public/images/driver/2.png" alt="" />
+          </div>
+          <div class="dirver__item__text">
+            <p>ساعت کاری دلخواه</p>
+            <p>
+              فعالیت در ناوگان اسنپ محدودیت زمانی ندارد و می‌توانید فعالیت خود
+              را در هر ساعت از شبانه‌روز و متناسب با برنامه‌ی زندگی‌تان
+              شخصی‌سازی کنید.
+            </p>
+          </div>
+        </div>
+        <div class="dirver__item">
+          <div class="dirver__item__img">
+            <img src="public/images/driver/3.png" alt="" />
+          </div>
+          <div class="dirver__item__text">
+            <p>مزایا و خدمات باشگاه رانندگان</p>
+            <p>
+              در باشگاه رانندگان اسنپ می‌توانید از تسهیلات و خدمات متنوعی از
+              جمله خدمات خودرویی، خدمات درمانی و همچنین خدمات رفاهی و آموزشی
+              بهره‌مند شوید.
+            </p>
+          </div>
+        </div>
+        <div class="dirver__item">
+          <div class="dirver__item__img">
+            <img src="public/images/driver/4.png" alt="" />
+          </div>
+          <div class="dirver__item__text">
+            <p>کار‌فیکس</p>
+            <p>
+              باشگاه رانندگان اسنپ به‌تازگی سرویس جدید «اسنپ کارفیکس» را برای
+              سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه‌اندازی کرده
+              است.
+            </p>
+          </div>
+        </div>
+        <div class="dirver__item">
+          <div class="dirver__item__img">
+            <img src="public/images/driver/5.svg" alt="" />
+          </div>
+          <div class="dirver__item__text">
+            <p>امنیت سفر کاربران راننده در اسنپ</p>
+            <p>
+              اسنپ با ارائه سرویس امنیت سفر در اپلیکیشن رانندگان و بهبود مستمر
+              امکانات امنیتی این سرویس، تلاش می‌‌کند تجربه سفر با اسنپ برای
+              کاربران راننده امن‌ و مطمئن باشد.
+            </p>
+          </div>
+        </div>
+        <div class="dirver__item">
+          <div class="dirver__item__img">
+            <img src="public/images/driver/6.svg" alt="" />
+          </div>
+          <div class="dirver__item__text">
+            <p>پشتیبانی ۲۴ ساعته و سریع</p>
+            <p>
+              تیم پشتیبانی اسنپ در تمامی ساعت‌های شبانه‌روز پاسخگوی سوال‌ها و
+              مشکلات کاربران راننده است. بخش «پشتیبانی» در اپلیکیشن رانندگان،
+              سریع‌ترین راه ارتباطی شما با تیم پشتیبانی اسنپ است
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer__link">
+        <a href="#">فرصت های شغلی</a>
+        <a href="#">بلاگ</a>
+        <a href="#">شرایط و قوانین</a>
+        <a href="#">پنل سازمانی</a>
+        <a href="#">سوالات متداول</a>
+        <a href="#">باشگاه رانندگان</a>
+        <a href="#">ثبت نام راننده اسنپ</a>
+        <a href="#">کد تخفیف اسنپ</a>
+        <a href="#">بلیط هواپیما</a>
+        <a href="#">درباره ما</a>
+        <a href="#">تماس با ما</a>
+      </div>
+      <div class="footer__icon footer__link">
+        <img src="public/images/footer/Twitter.svg" alt="" />
+        <img src="public/images/footer/Instagram.svg" alt="" />
+        <img src="public/images/footer/Youtube.svg" alt="" />
+        <img src="public/images/footer/Linkedin.svg" alt="" />
+        <img src="public/images/footer/Telegram.svg" alt="" />
+      </div>
+      <div class="footer__namad footer__link">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </footer>
+    <script>
+      const closeBtn = document.getElementById("closeBtn");
+      const openBtn = document.getElementById("openBtn");
+      const drawer = document.getElementById("drawer");
+      closeBtn.addEventListener("click", () => {
+        drawer.classList.toggle("toggelNav");
+        document.body.style.overflow = "scroll";
+      });
+      openBtn.addEventListener("click", () => {
+        drawer.classList.toggle("toggelNav");
+        document.body.style.overflow = "hidden";
+      });
+    </script>
+  </body>
+</html>
