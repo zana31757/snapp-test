@@ -112,7 +112,7 @@ li {
   color: var(--white);
 }
 .hero__image {
-  background-image: url(/public/images/hero-section/intro.jpg);
+  background-image: url(../../public/images/hero-section/intro.jpg);
   background-size: cover;
 }
 .hero__content {
